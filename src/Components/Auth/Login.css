@@ -1,0 +1,102 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.login-main-section {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.login-main-section .login-container-box {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.container-login {
+    width: 100%;
+
+    max-width: 400px;
+}
+
+.card-login {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 300px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-align: center;
+    color: #333;
+}
+
+.card-login form {
+    margin-top: 83px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.card-login form input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -o-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+}
+
+.card-login form input:focus {
+    border-color: #ff4500;
+}
+
+.card-login form button {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card-login form button:hover {
+    background-color: #e63900;
+}
+
+@media screen and (max-width:768px) {
+    .container-login {
+
+        margin-right: 97px;
+    }
+}

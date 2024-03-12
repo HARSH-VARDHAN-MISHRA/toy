@@ -1,0 +1,57 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.heights{
+}
+.header{
+    padding: 1.1rem;
+    width: 100%;
+    background: white;
+    background: #e7f1ff;
+    min-height: 100vh;
+}
+.navbars{
+}
+.logo{
+    text-align: center;
+    margin-bottom: 1.1rem;
+}
+.navbars ul {
+    padding-left: 0rem;
+}
+.navbars ul li{
+    padding: 0.5rem 0rem;
+    transition: all 100ms ease-in;
+    display: block;
+    border-radius: 50rem;
+}
+.navbars ul li a{
+    transition: all 000ms ease-in;
+    padding-left: 1rem;
+}
+.navbars ul li:hover{
+    background: #dde9f9;
+}
+.navbars ul li:hover a{
+    color: white;
+}
+
+
+.verticle-navbar{
+    /* position: fixed; */
+}
+
+.logo-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-variant: normal;
+    /* text-align: start; */
+    color: #333;
+}
+
+
